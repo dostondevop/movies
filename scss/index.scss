@@ -1,0 +1,22 @@
+.titlepage {
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.itemmovie {
+    width: 18rem;
+    padding-top: 11px;
+    box-shadow: 1px 1px 5px 0 #000;
+    transition: 0.9s ease !important;
+    &:hover {
+    box-shadow: 2px 2px 9px 0 #000;
+    }
+}
+
+.abcd {
+    display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
